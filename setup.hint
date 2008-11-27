@@ -1,0 +1,7 @@
+category: Scheme
+requires: guile
+sdesc: "Collection of pure-scheme Guile modules"
+ldesc: "Guile-Lib is intended as an accumulation place for pure-scheme 
+Guile modules, allowing for people to cooperate integrating their 
+generic Guile modules into a coherent library. Think 'a down-scaled, 
+limited-scope CPAN for Guile'."

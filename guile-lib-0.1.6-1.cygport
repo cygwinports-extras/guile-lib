@@ -1,0 +1,9 @@
+DESCRIPTION="Collection of pure-scheme Guile modules"
+HOMEPAGE="http://home.gna.org/guile-lib/"
+SRC_URI="http://download.gna.org/${PN}/${P}.tar.gz"
+
+src_compile() {
+	cd ${B}
+	cygconf
+	cygmake
+}
